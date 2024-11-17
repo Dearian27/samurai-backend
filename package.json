@@ -1,0 +1,20 @@
+{
+  "name": "samurai-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn nodemon ./src/index.ts",
+    "debug": "yarn nodemon --inspect ./src/index.ts"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
+  }
+}
